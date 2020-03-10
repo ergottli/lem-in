@@ -8,7 +8,9 @@ This program finds the optimal path for ants from the start room to the end.
 
 * Program will receive the data describing the ant farm from the standard outputin the following format:
 ```
-number_of_antsthe_roomsthe_links
+number_of_ants
+the_rooms
+the_links
 ```
 * Ant farm is defined by the following links:
 ```
@@ -59,14 +61,14 @@ the_rooms
 the_links
 Lx-y Lz-w Lr-o ...
 ```
-x, z, rrepresents the ants’ numbers (going from 1 to number_of_ants) 
-and y, w, o represents the rooms’ names.
+x, z, r represents the ant’s numbers (going from 1 to number_of_ants) 
+and y, w, o represents the room’s names.
 
 ## Getting Started
 
-Clone repository with command git clone --recurse-submodules https://github.com/ergottli/lem-in.git
+Clone repository with command git clone ```--recurse-submodules https://github.com/ergottli/lem-in.git```
 
-Than enter command make in the root of repository.
+Than enter command ```make``` in the root of repository.
 
 Was compiled on MacOS Catalina 10.15.3
 
