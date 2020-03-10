@@ -1,0 +1,6 @@
+[submodule "libft"]
+	path = libft
+	url = https://github.com/ergottli/libft.git
+[submodule "visualizer/libft"]
+	path = visualizer/libft
+	url = https://github.com/ergottli/libft.git
